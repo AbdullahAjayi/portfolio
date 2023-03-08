@@ -2,6 +2,7 @@ import image1 from "../asset/images/image1.png";
 import image2 from "../asset/images/image2.png";
 import image3 from "../asset/images/image3.png";
 import image4 from "../asset/images/image4.png";
+import image5 from "../asset/images/image5.png";
 
 import svg1 from "../asset/svg/svg1.svg";
 import svg2 from "../asset/svg/svg2.svg";
@@ -58,8 +59,8 @@ const about = {
 
 const works = [
   {
-    image: image1,
     title: "The css box model",
+    image: image1,
     caption:
       "A website I created to help newbies understand confusing concept surroudning the css box model such as flex-box, margin, padding and other box elements.",
     alt: "The css box model",
@@ -68,8 +69,8 @@ const works = [
     liveSite: "https://the-css-box-model.vercel.app",
   },
   {
-    image: image2,
     title: "GPT3-ai web",
+    image: image2,
     caption: "An awesome website I worked on to improve my UI UX skills.",
     alt: "GPT3-ai web",
     tags: ["Css", "BEM", "UI UX", "React"],
@@ -87,8 +88,8 @@ const works = [
     liveSite: "https://minimal-tube.vercel.app",
   },
   {
-    image: image4,
     title: "Random Advice Generator",
+    image: image4,
     caption:
       "A challenge I took from the front-end mentor website to improve my CSS, JavaScript, API and design skills.",
     alt: "Random Advice generator",
@@ -97,18 +98,17 @@ const works = [
     liveSite: "https://random-advice-generator.vercel.app",
   },
   {
-    image: "",
-    title: "Lorem Ipsum",
-    caption:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, at! Similique animi exercitationem voluptate sit!",
+    title: "Portfolio Website (v1)",
+    image: image5,
+    caption: "Yup, this one you're exploring 😉.",
     alt: "",
-    tags: ["Css", "Sass", "JavaScript"],
-    githubLink: "https://github.com/AbdullahAjayi",
+    tags: ["JavaScript", "Tailwind", "Css", "React"],
+    githubLink: "https://github.com/AbdullahAjayi/portfolio",
     liveSite: "",
   },
   {
-    image: "",
     title: "Lorem Ipsum",
+    image: "",
     caption:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, at! Similique animi exercitationem voluptate sit!",
     alt: "",
