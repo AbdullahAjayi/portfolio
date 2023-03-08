@@ -8,7 +8,8 @@ const styles = {
   projectTags: "bg-blue-100 rounded-lg p-1 px-2 w-fit cursor-pointer",
   projectLinks: "cursor-pointer hover:bg-blue-100 p-3 rounded-lg",
   workList: "mt-4 grid gap-3 gap-y-10",
-  listItem: "flex flex-col border border-[#090e50] rounded-md p-2",
+  listItem:
+    "works animate-on-scroll flex flex-col border border-[#090e50] rounded-md p-2",
   image: "h-40 border border-[#090e50] overflow-hidden rounded-md",
 };
 
@@ -17,8 +18,8 @@ const Works = () => {
 
   return (
     <section id="work" className={`${globalStyles.section}`}>
-      <h2 className={`${globalStyles.heading}`}>My Works.</h2>
-      <p className={`${globalStyles.sectionParagraph}`}>
+      <h2 className={`animate-on-scroll ${globalStyles.heading}`}>My Works.</h2>
+      <p className={`animate-on-scroll ${globalStyles.sectionParagraph}`}>
         While I have been engaged in a number of diverse and challenging
         projects, many of them are currently not ready for public viewing due to
         various reasons. However, here are some projects I built in the past

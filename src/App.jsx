@@ -45,14 +45,27 @@ const App = () => {
 
   const handleScrollAnimation = () => {
     const scrollAnimElements = document.querySelectorAll(".animate-on-scroll");
-    const elementInView = (el) => {
+    const works = document.querySelectorAll(".works");
+    const elementInView = (el, dimension = 1) => {
       const elementTop = el.getBoundingClientRect().top;
       const elementHeight = el.getBoundingClientRect().height;
-      return elementTop <= window.innerHeight - elementHeight / (3 / 4);
+      return (
+        elementTop <=
+        //
+        window.innerHeight - (elementHeight - dimension * elementHeight)
+      );
     };
     const animateOnScroll = () => {
       scrollAnimElements.forEach((element) => {
-        if (elementInView(element)) {
+        if (element.classList.contains("works")) {
+          if (elementInView(element, 1 / 4)) {
+            element.style.opacity = "1";
+            element.classList.add("slide-top");
+          } else {
+            element.style.opacity = "0";
+            element.classList.remove("slide-top");
+          }
+        } else if (elementInView(element, 1 / 4)) {
           element.style.opacity = "1";
           element.classList.add("slide-top");
         } else {
