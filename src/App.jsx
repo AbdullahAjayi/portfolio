@@ -31,12 +31,41 @@ const App = () => {
   //   }
   // }, [screenSize]);
 
-  const [logoPage, setlogoPage] = useState(true);
+  const [logoPage, setLogoPage] = useState(true);
+  const [scrollY, setScrollY] = useState(0);
+
   useEffect(() => {
     setTimeout(() => {
-      setlogoPage(false);
+      setLogoPage(false);
     }, 4000);
+
+    const handleScrollEvent = () => {
+      setScrollY(window.scrollY);
+    };
+    window.addEventListener("scroll", handleScrollEvent);
   }, []);
+
+  const handleScrollAnimation = () => {
+    const scrollAnimElements = document.querySelectorAll(".animate-on-scroll");
+    const elementInView = (el) => {
+      const elementTop = el.getBoundingClientRect().top;
+      return elementTop <= window.innerHeight;
+    };
+    const animateOnScroll = () => {
+      scrollAnimElements.forEach((element) => {
+        if (elementInView(element)) {
+          console.log("Element in view");
+        } else {
+          console.log("Element not in view");
+        }
+      });
+    };
+    animateOnScroll();
+  };
+
+  useEffect(() => {
+    handleScrollAnimation();
+  }, [scrollY]);
 
   return (
     <div

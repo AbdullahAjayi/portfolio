@@ -20,7 +20,9 @@ const About = () => {
         </div>
         <div className="flex-1">
           <h2 className={globalStyles.subheading}>Design</h2>
-          <p className={`${globalStyles.sectionParagraph}`}>{about.design}</p>
+          <p className={`animate-on-scroll ${globalStyles.sectionParagraph}`}>
+            {about.design}
+          </p>
         </div>
       </div>
     </section>
