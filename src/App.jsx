@@ -58,7 +58,7 @@ const App = () => {
     const animateOnScroll = () => {
       scrollAnimElements.forEach((element) => {
         if (element.classList.contains("works")) {
-          if (elementInView(element, 1 / 4)) {
+          if (elementInView(element, 1 / 2)) {
             element.style.opacity = "1";
             element.classList.add("slide-top");
           } else {
