@@ -39,9 +39,7 @@ const App = () => {
       setLogoPage(false);
     }, 4000);
 
-    const handleScrollEvent = () => {
-      setScrollY(window.scrollY);
-    };
+    const handleScrollEvent = () => setScrollY(window.scrollY);
     window.addEventListener("scroll", handleScrollEvent);
   }, []);
 
@@ -49,14 +47,17 @@ const App = () => {
     const scrollAnimElements = document.querySelectorAll(".animate-on-scroll");
     const elementInView = (el) => {
       const elementTop = el.getBoundingClientRect().top;
-      return elementTop <= window.innerHeight;
+      const elementHeight = el.getBoundingClientRect().height;
+      return elementTop <= window.innerHeight - elementHeight / (3 / 4);
     };
     const animateOnScroll = () => {
       scrollAnimElements.forEach((element) => {
         if (elementInView(element)) {
-          console.log("Element in view");
+          element.style.opacity = "1";
+          element.classList.add("slide-top");
         } else {
-          console.log("Element not in view");
+          element.style.opacity = "0";
+          element.classList.remove("slide-top");
         }
       });
     };
