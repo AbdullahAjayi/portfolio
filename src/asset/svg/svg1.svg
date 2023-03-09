@@ -46,27 +46,27 @@
         .FLCZGuFo_0 {
           stroke-dasharray: 561 563;
           stroke-dashoffset: 562;
-          animation: FLCZGuFo_draw 1600ms linear 0ms forwards;
+          animation: FLCZGuFo_draw 700ms linear 0ms forwards;
         }
         .FLCZGuFo_1 {
           stroke-dasharray: 535 537;
           stroke-dashoffset: 536;
-          animation: FLCZGuFo_draw 1600ms linear 200ms forwards;
+          animation: FLCZGuFo_draw 700ms linear 200ms forwards;
         }
         .FLCZGuFo_2 {
           stroke-dasharray: 428 430;
           stroke-dashoffset: 429;
-          animation: FLCZGuFo_draw 1600ms linear 400ms forwards;
+          animation: FLCZGuFo_draw 700ms linear 400ms forwards;
         }
         .FLCZGuFo_3 {
           stroke-dasharray: 62 64;
           stroke-dashoffset: 63;
-          animation: FLCZGuFo_draw 1600ms linear 600ms forwards;
+          animation: FLCZGuFo_draw 700ms linear 600ms forwards;
         }
         .FLCZGuFo_4 {
           stroke-dasharray: 177 179;
           stroke-dashoffset: 178;
-          animation: FLCZGuFo_draw 1600ms linear 800ms forwards;
+          animation: FLCZGuFo_draw 700ms linear 800ms forwards;
         }
         @keyframes FLCZGuFo_draw {
           100% {

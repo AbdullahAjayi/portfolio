@@ -62,42 +62,42 @@
         .vmipLVPk_0 {
           stroke-dasharray: 561 563;
           stroke-dashoffset: 562;
-          animation: vmipLVPk_draw 1600ms linear 0ms forwards;
+          animation: vmipLVPk_draw 700ms linear 0ms forwards;
         }
         .vmipLVPk_1 {
           stroke-dasharray: 535 537;
           stroke-dashoffset: 536;
-          animation: vmipLVPk_draw 1600ms linear 114ms forwards;
+          animation: vmipLVPk_draw 700ms linear 114ms forwards;
         }
         .vmipLVPk_2 {
           stroke-dasharray: 428 430;
           stroke-dashoffset: 429;
-          animation: vmipLVPk_draw 1600ms linear 228ms forwards;
+          animation: vmipLVPk_draw 700ms linear 228ms forwards;
         }
         .vmipLVPk_3 {
           stroke-dasharray: 62 64;
           stroke-dashoffset: 63;
-          animation: vmipLVPk_draw 1600ms linear 342ms forwards;
+          animation: vmipLVPk_draw 700ms linear 342ms forwards;
         }
         .vmipLVPk_4 {
           stroke-dasharray: 475 477;
           stroke-dashoffset: 476;
-          animation: vmipLVPk_draw 1600ms linear 457ms forwards;
+          animation: vmipLVPk_draw 700ms linear 457ms forwards;
         }
         .vmipLVPk_5 {
           stroke-dasharray: 98 100;
           stroke-dashoffset: 99;
-          animation: vmipLVPk_draw 1600ms linear 571ms forwards;
+          animation: vmipLVPk_draw 700ms linear 571ms forwards;
         }
         .vmipLVPk_6 {
           stroke-dasharray: 104 106;
           stroke-dashoffset: 105;
-          animation: vmipLVPk_draw 1600ms linear 685ms forwards;
+          animation: vmipLVPk_draw 700ms linear 685ms forwards;
         }
         .vmipLVPk_7 {
           stroke-dasharray: 111 113;
           stroke-dashoffset: 112;
-          animation: vmipLVPk_draw 1600ms linear 800ms forwards;
+          animation: vmipLVPk_draw 700ms linear 800ms forwards;
         }
         @keyframes vmipLVPk_draw {
           100% {

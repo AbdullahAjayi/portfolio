@@ -67,42 +67,42 @@
         .PGvjPnvc_0 {
           stroke-dasharray: 561 563;
           stroke-dashoffset: 562;
-          animation: PGvjPnvc_draw 1600ms linear 0ms forwards;
+          animation: PGvjPnvc_draw 700ms linear 0ms forwards;
         }
         .PGvjPnvc_1 {
           stroke-dasharray: 535 537;
           stroke-dashoffset: 536;
-          animation: PGvjPnvc_draw 1600ms linear 114ms forwards;
+          animation: PGvjPnvc_draw 700ms linear 114ms forwards;
         }
         .PGvjPnvc_2 {
           stroke-dasharray: 428 430;
           stroke-dashoffset: 429;
-          animation: PGvjPnvc_draw 1600ms linear 228ms forwards;
+          animation: PGvjPnvc_draw 700ms linear 228ms forwards;
         }
         .PGvjPnvc_3 {
           stroke-dasharray: 62 64;
           stroke-dashoffset: 63;
-          animation: PGvjPnvc_draw 1600ms linear 342ms forwards;
+          animation: PGvjPnvc_draw 700ms linear 342ms forwards;
         }
         .PGvjPnvc_4 {
           stroke-dasharray: 268 270;
           stroke-dashoffset: 269;
-          animation: PGvjPnvc_draw 1600ms linear 457ms forwards;
+          animation: PGvjPnvc_draw 700ms linear 457ms forwards;
         }
         .PGvjPnvc_5 {
           stroke-dasharray: 268 270;
           stroke-dashoffset: 269;
-          animation: PGvjPnvc_draw 1600ms linear 571ms forwards;
+          animation: PGvjPnvc_draw 700ms linear 571ms forwards;
         }
         .PGvjPnvc_6 {
           stroke-dasharray: 321 323;
           stroke-dashoffset: 322;
-          animation: PGvjPnvc_draw 1600ms linear 685ms forwards;
+          animation: PGvjPnvc_draw 700ms linear 685ms forwards;
         }
         .PGvjPnvc_7 {
           stroke-dasharray: 11 13;
           stroke-dashoffset: 12;
-          animation: PGvjPnvc_draw 1600ms linear 800ms forwards;
+          animation: PGvjPnvc_draw 700ms linear 800ms forwards;
         }
         @keyframes PGvjPnvc_draw {
           100% {
