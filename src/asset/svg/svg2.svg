@@ -1,10 +1,124 @@
-<svg width="209" height="132" viewBox="0 0 209 132" fill="none" xmlns="http://www.w3.org/2000/svg" style="cursor: pointer">
-<path width="186.453" height="113.455" stroke="#090E50" stroke-width="2" d="M 33.939,1 L 174.392,1 A 23,23,0,0,1,197.392,24 L 197.392,91.455 A 23,23,0,0,1,174.392,114.455 L 33.939,114.455 A 23,23,0,0,1,10.939,91.455 L 10.939,24 A 23,23,0,0,1,33.939,1" class="PGvjPnvc_0"></path>
-<path width="179.697" height="107.141" stroke="#090E50" stroke-width="2" d="M 37.3333,4.33331 L 171.0303,4.33331 A 23,23,0,0,1,194.0303,27.33331 L 194.0303,88.47431 A 23,23,0,0,1,171.0303,111.47431 L 37.3333,111.47431 A 23,23,0,0,1,14.3333,88.47431 L 14.3333,27.33331 A 23,23,0,0,1,37.3333,4.33331" class="PGvjPnvc_1"></path>
-<path d="M1.00001 118.948H207.667V118.948C207.667 125.604 202.271 131 195.615 131H13.052C6.39585 131 1.00001 125.604 1.00001 118.948V118.948Z" stroke="#090E50" stroke-width="2" class="PGvjPnvc_2"></path>
-<path d="M89.6667 122.333H118.333V122.333C118.333 124.174 116.841 125.667 115 125.667H93C91.159 125.667 89.6667 124.174 89.6667 122.333V122.333Z" stroke="#090E50" stroke-width="2" class="PGvjPnvc_3"></path>
-<path d="M187.125 49V53.69C187.125 55.5662 187.125 56.5043 186.757 57.2209C186.433 57.8512 185.917 58.3637 185.282 58.6849C184.56 59.05 183.615 59.05 181.725 59.05H172.275C170.385 59.05 169.44 59.05 168.718 58.6849C168.083 58.3637 167.566 57.8512 167.243 57.2209C166.875 56.5043 166.875 55.5662 166.875 53.69V49M160.8 116H193.2C196.98 116 198.871 116 200.315 115.27C201.585 114.628 202.617 113.602 203.264 112.342C204 110.909 204 109.032 204 105.28V59.72C204 55.9676 204 54.0915 203.264 52.6583C202.617 51.3976 201.585 50.3726 200.315 49.7303C198.871 49 196.98 49 193.2 49H160.8C157.02 49 155.129 49 153.686 49.7303C152.415 50.3726 151.383 51.3976 150.736 52.6583C150 54.0915 150 55.9677 150 59.72V105.28C150 109.032 150 110.909 150.736 112.342C151.383 113.602 152.415 114.628 153.686 115.27C155.129 116 157.02 116 160.8 116Z" fill="#ADD8E6" class="PGvjPnvc_4"></path>
-<path d="M187.125 49V53.69C187.125 55.5662 187.125 56.5043 186.757 57.2209C186.433 57.8512 185.917 58.3637 185.282 58.6849C184.56 59.05 183.615 59.05 181.725 59.05H172.275C170.385 59.05 169.44 59.05 168.718 58.6849C168.083 58.3637 167.566 57.8512 167.243 57.2209C166.875 56.5043 166.875 55.5662 166.875 53.69V49M160.8 116H193.2C196.98 116 198.871 116 200.315 115.27C201.585 114.628 202.617 113.602 203.264 112.342C204 110.909 204 109.032 204 105.28V59.72C204 55.9676 204 54.0915 203.264 52.6583C202.617 51.3976 201.585 50.3726 200.315 49.7303C198.871 49 196.98 49 193.2 49H160.8C157.02 49 155.129 49 153.686 49.7303C152.415 50.3726 151.383 51.3976 150.736 52.6583C150 54.0915 150 55.9677 150 59.72V105.28C150 109.032 150 110.909 150.736 112.342C151.383 113.602 152.415 114.628 153.686 115.27C155.129 116 157.02 116 160.8 116Z" stroke="#090E50" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="PGvjPnvc_5"></path>
-<path d="M104.85 115.8L12.15 115.8C9.30573 115.8 7 113.494 7 110.65L7 59.15C7 56.3057 9.30573 54 12.15 54L104.85 54C107.694 54 110 56.3057 110 59.15L110 110.65C110 113.494 107.694 115.8 104.85 115.8Z" fill="#ADD8E6" stroke="#090E50" stroke-width="2.5" stroke-linecap="square" stroke-linejoin="round" class="PGvjPnvc_6"></path>
-<path d="M16.45 83.75L16.45 94.05" stroke="#090E50" stroke-width="2.5" stroke-linecap="square" class="PGvjPnvc_7"></path>
-<style data-made-with="vivus-instant">.PGvjPnvc_0{stroke-dasharray:561 563;stroke-dashoffset:562;animation:PGvjPnvc_draw 1600ms linear 0ms forwards;}.PGvjPnvc_1{stroke-dasharray:535 537;stroke-dashoffset:536;animation:PGvjPnvc_draw 1600ms linear 114ms forwards;}.PGvjPnvc_2{stroke-dasharray:428 430;stroke-dashoffset:429;animation:PGvjPnvc_draw 1600ms linear 228ms forwards;}.PGvjPnvc_3{stroke-dasharray:62 64;stroke-dashoffset:63;animation:PGvjPnvc_draw 1600ms linear 342ms forwards;}.PGvjPnvc_4{stroke-dasharray:268 270;stroke-dashoffset:269;animation:PGvjPnvc_draw 1600ms linear 457ms forwards;}.PGvjPnvc_5{stroke-dasharray:268 270;stroke-dashoffset:269;animation:PGvjPnvc_draw 1600ms linear 571ms forwards;}.PGvjPnvc_6{stroke-dasharray:321 323;stroke-dashoffset:322;animation:PGvjPnvc_draw 1600ms linear 685ms forwards;}.PGvjPnvc_7{stroke-dasharray:11 13;stroke-dashoffset:12;animation:PGvjPnvc_draw 1600ms linear 800ms forwards;}@keyframes PGvjPnvc_draw{100%{stroke-dashoffset:0;}}@keyframes PGvjPnvc_fade{0%{stroke-opacity:1;}93.93939393939394%{stroke-opacity:1;}100%{stroke-opacity:0;}}</style></svg>
+ <svg
+      width="209"
+      height="132"
+      viewBox="0 0 209 132"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      style="cursor: pointer"
+    >
+      <path
+        width="186.453"
+        height="113.455"
+        stroke="#090E50"
+        stroke-width="2"
+        d="M 33.939,1 L 174.392,1 A 23,23,0,0,1,197.392,24 L 197.392,91.455 A 23,23,0,0,1,174.392,114.455 L 33.939,114.455 A 23,23,0,0,1,10.939,91.455 L 10.939,24 A 23,23,0,0,1,33.939,1"
+        class="PGvjPnvc_0"
+      ></path>
+      <path
+        width="179.697"
+        height="107.141"
+        stroke="#090E50"
+        stroke-width="2"
+        d="M 37.3333,4.33331 L 171.0303,4.33331 A 23,23,0,0,1,194.0303,27.33331 L 194.0303,88.47431 A 23,23,0,0,1,171.0303,111.47431 L 37.3333,111.47431 A 23,23,0,0,1,14.3333,88.47431 L 14.3333,27.33331 A 23,23,0,0,1,37.3333,4.33331"
+        class="PGvjPnvc_1"
+      ></path>
+      <path
+        d="M1.00001 118.948H207.667V118.948C207.667 125.604 202.271 131 195.615 131H13.052C6.39585 131 1.00001 125.604 1.00001 118.948V118.948Z"
+        stroke="#090E50"
+        stroke-width="2"
+        class="PGvjPnvc_2"
+      ></path>
+      <path
+        d="M89.6667 122.333H118.333V122.333C118.333 124.174 116.841 125.667 115 125.667H93C91.159 125.667 89.6667 124.174 89.6667 122.333V122.333Z"
+        stroke="#090E50"
+        stroke-width="2"
+        class="PGvjPnvc_3"
+      ></path>
+      <path
+        d="M187.125 49V53.69C187.125 55.5662 187.125 56.5043 186.757 57.2209C186.433 57.8512 185.917 58.3637 185.282 58.6849C184.56 59.05 183.615 59.05 181.725 59.05H172.275C170.385 59.05 169.44 59.05 168.718 58.6849C168.083 58.3637 167.566 57.8512 167.243 57.2209C166.875 56.5043 166.875 55.5662 166.875 53.69V49M160.8 116H193.2C196.98 116 198.871 116 200.315 115.27C201.585 114.628 202.617 113.602 203.264 112.342C204 110.909 204 109.032 204 105.28V59.72C204 55.9676 204 54.0915 203.264 52.6583C202.617 51.3976 201.585 50.3726 200.315 49.7303C198.871 49 196.98 49 193.2 49H160.8C157.02 49 155.129 49 153.686 49.7303C152.415 50.3726 151.383 51.3976 150.736 52.6583C150 54.0915 150 55.9677 150 59.72V105.28C150 109.032 150 110.909 150.736 112.342C151.383 113.602 152.415 114.628 153.686 115.27C155.129 116 157.02 116 160.8 116Z"
+        fill="#ADD8E6"
+        class="PGvjPnvc_4"
+      ></path>
+      <path
+        d="M187.125 49V53.69C187.125 55.5662 187.125 56.5043 186.757 57.2209C186.433 57.8512 185.917 58.3637 185.282 58.6849C184.56 59.05 183.615 59.05 181.725 59.05H172.275C170.385 59.05 169.44 59.05 168.718 58.6849C168.083 58.3637 167.566 57.8512 167.243 57.2209C166.875 56.5043 166.875 55.5662 166.875 53.69V49M160.8 116H193.2C196.98 116 198.871 116 200.315 115.27C201.585 114.628 202.617 113.602 203.264 112.342C204 110.909 204 109.032 204 105.28V59.72C204 55.9676 204 54.0915 203.264 52.6583C202.617 51.3976 201.585 50.3726 200.315 49.7303C198.871 49 196.98 49 193.2 49H160.8C157.02 49 155.129 49 153.686 49.7303C152.415 50.3726 151.383 51.3976 150.736 52.6583C150 54.0915 150 55.9677 150 59.72V105.28C150 109.032 150 110.909 150.736 112.342C151.383 113.602 152.415 114.628 153.686 115.27C155.129 116 157.02 116 160.8 116Z"
+        stroke="#090E50"
+        stroke-width="2.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="PGvjPnvc_5"
+      ></path>
+      <path
+        d="M104.85 115.8L12.15 115.8C9.30573 115.8 7 113.494 7 110.65L7 59.15C7 56.3057 9.30573 54 12.15 54L104.85 54C107.694 54 110 56.3057 110 59.15L110 110.65C110 113.494 107.694 115.8 104.85 115.8Z"
+        fill="#ADD8E6"
+        stroke="#090E50"
+        stroke-width="2.5"
+        stroke-linecap="square"
+        stroke-linejoin="round"
+        class="PGvjPnvc_6"
+      ></path>
+      <path
+        d="M16.45 83.75L16.45 94.05"
+        stroke="#090E50"
+        stroke-width="2.5"
+        stroke-linecap="square"
+        class="PGvjPnvc_7"
+      ></path>
+      <style data-made-with="vivus-instant">
+        .PGvjPnvc_0 {
+          stroke-dasharray: 561 563;
+          stroke-dashoffset: 562;
+          animation: PGvjPnvc_draw 1600ms linear 0ms forwards;
+        }
+        .PGvjPnvc_1 {
+          stroke-dasharray: 535 537;
+          stroke-dashoffset: 536;
+          animation: PGvjPnvc_draw 1600ms linear 114ms forwards;
+        }
+        .PGvjPnvc_2 {
+          stroke-dasharray: 428 430;
+          stroke-dashoffset: 429;
+          animation: PGvjPnvc_draw 1600ms linear 228ms forwards;
+        }
+        .PGvjPnvc_3 {
+          stroke-dasharray: 62 64;
+          stroke-dashoffset: 63;
+          animation: PGvjPnvc_draw 1600ms linear 342ms forwards;
+        }
+        .PGvjPnvc_4 {
+          stroke-dasharray: 268 270;
+          stroke-dashoffset: 269;
+          animation: PGvjPnvc_draw 1600ms linear 457ms forwards;
+        }
+        .PGvjPnvc_5 {
+          stroke-dasharray: 268 270;
+          stroke-dashoffset: 269;
+          animation: PGvjPnvc_draw 1600ms linear 571ms forwards;
+        }
+        .PGvjPnvc_6 {
+          stroke-dasharray: 321 323;
+          stroke-dashoffset: 322;
+          animation: PGvjPnvc_draw 1600ms linear 685ms forwards;
+        }
+        .PGvjPnvc_7 {
+          stroke-dasharray: 11 13;
+          stroke-dashoffset: 12;
+          animation: PGvjPnvc_draw 1600ms linear 800ms forwards;
+        }
+        @keyframes PGvjPnvc_draw {
+          100% {
+            stroke-dashoffset: 0;
+          }
+        }
+        @keyframes PGvjPnvc_fade {
+          0% {
+            stroke-opacity: 1;
+          }
+          93.93939393939394% {
+            stroke-opacity: 1;
+          }
+          100% {
+            stroke-opacity: 0;
+          }
+        }
+      </style>
+    </svg>
