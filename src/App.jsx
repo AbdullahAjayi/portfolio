@@ -34,8 +34,10 @@ const App = () => {
       const elementHeight = el.getBoundingClientRect().height;
       return (
         // Returns true or false
-        elementTop <=
-        window.innerHeight - (elementHeight - dimension * elementHeight)
+        Math.round(elementTop) <=
+        Math.round(
+          window.innerHeight - (elementHeight - dimension * elementHeight)
+        )
       );
     };
     const animateOnScroll = () => {

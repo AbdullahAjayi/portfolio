@@ -18,8 +18,12 @@ const Contact = () => {
       id="contact"
       className={`${globalStyles.section} flex flex-col md:items-center`}
     >
-      <h1 className={globalStyles.heading}>Get In Touch.</h1>
-      <p className={`${globalStyles.sectionParagraph} md:text-center`}>
+      <h1 className={`animate-on-scroll ${globalStyles.heading}`}>
+        Get In Touch.
+      </h1>
+      <p
+        className={`animate-on-scroll ${globalStyles.sectionParagraph} md:text-center`}
+      >
         I am looking forward to working with a team of creative designers and
         developers working towards bringing an idea to life. If you think we
         might be a good fit for each other, or just want to say hello, go Ahead!

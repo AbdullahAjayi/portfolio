@@ -8,7 +8,7 @@ const Footer = () => {
           href="https://github.com/AbdullahAjayi"
           target="_blank"
           rel="noreferrer"
-          className="text-sm text-blue-700 underline hover:no-underline"
+          className="animate-on-scroll text-sm text-blue-700 underline hover:no-underline"
         >
           Designed & built by Abdullah Ajayi
         </a>

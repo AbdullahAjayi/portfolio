@@ -12,14 +12,16 @@ const styles = {
 const Experience = () => {
   return (
     <section id="services" className={globalStyles.section}>
-      <h2 className={globalStyles.heading}>Experience</h2>
-      <p className={globalStyles.sectionParagraph}>
+      <h2 className={`animate-on-scroll ${globalStyles.heading}`}>
+        Experience
+      </h2>
+      <p className={`animate-on-scroll ${globalStyles.sectionParagraph}`}>
         I have been actively involved in web development for about a year now,
         and I am constantly motivated to keep learning in this fast-paced
         industry.
       </p>
       <div className="flex flex-col gap-10 lg:flex-row lg:gap-5">
-        <div className="flex-1">
+        <div className="animate-on-scroll flex-1">
           <h3 className={globalStyles.smSubheading}>
             Some technologies I've worked with:
           </h3>
@@ -31,7 +33,7 @@ const Experience = () => {
             ))}
           </ul>
         </div>
-        <div className="flex-1">
+        <div className="animate-on-scroll flex-1">
           <h3 className={globalStyles.smSubheading}>Where I've worked:</h3>
           <ul className="pt-3">
             {experience.map((item, index) => (
