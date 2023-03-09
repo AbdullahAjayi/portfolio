@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { services } from "../data/dummy";
 import useMedia from "../hooks/mediaQuery";
 import { globalStyles } from "../styles/globalStyles";
