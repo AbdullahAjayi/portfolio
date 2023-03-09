@@ -37,10 +37,12 @@ const Contact = () => {
         .
       </p>
       <div className="md:hidden mt-5">
-        <p className="text-lg italic">Or connect with me on Social media</p>
+        <p className="animate-on-scroll text-lg italic">
+          Or connect with me on Social media
+        </p>
         <ul className="flex md:hidden gap-6 text-xl mt-5">
           {socials.map((item, index) => (
-            <li key={index}>
+            <li key={index} className="animate-on-scroll">
               <a href={item.link} target="_blank" rel="noreferrer">
                 <div className="cursor-pointer hover:text-blue-700">
                   {item.icon}

@@ -11,7 +11,7 @@ const styles = {
   navLists: "flex flex-col md:flex-row gap-3 md:gap-5 text-[#090e50]",
   navItems:
     "h-full cursor-pointer hover:text-blue-700 text-lg md:text-xs font-semibold",
-  btn: "mt-0 py-[5px] px-3 text-[13px] font-semibold",
+  btn: "mt-0 py-[5px] px-3 text-[13px] font-semibold nav-btn-slide-top",
   navDiv: "hidden md:flex items-center gap-3",
   menuBtn:
     "menu-button w-fit relative md:hidden h-1/2 cursor-pointer flex items-center",
@@ -25,12 +25,14 @@ const MenuSidebar = () => (
   <div className={styles.menuSidebar}>
     <ol className={styles.navLists}>
       {navItems.map((navItem, index) => (
-        <a key={index} href={navItem.navigation}>
+        <a key={index} href={navItem.navigation} className="nav-slide-top">
           <li className={styles.navItems}>{navItem.title}</li>
         </a>
       ))}
     </ol>
-    <div className={`${globalStyles.btn} ${styles.btn}`}>Hire me</div>
+    <div className={`nav-slide-top ${globalStyles.btn} ${styles.btn}`}>
+      Hire me
+    </div>
   </div>
 );
 
@@ -51,7 +53,7 @@ const Navbar = () => {
       <div className={styles.navDiv}>
         <ol className={styles.navLists}>
           {navItems.map((navItem, index) => (
-            <a key={index} href={navItem.navigation}>
+            <a key={index} href={navItem.navigation} className="nav-slide-top">
               <li className={styles.navItems}>{navItem.title}</li>
             </a>
           ))}
