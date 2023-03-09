@@ -12,7 +12,7 @@ const socials = [
 
 const Socials = () => {
   return (
-    <div className="text-[#090e50] hidden md:flex gap-5">
+    <div className="socials text-[#090e50] hidden md:flex gap-5">
       <ul className="social-links flex fixed left-6 bottom-0 flex-col text-xl items-center">
         {socials.map((item, index) => (
           <li key={index}>

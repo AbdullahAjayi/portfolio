@@ -86,7 +86,7 @@ const App = () => {
             <Navbar />
           </header>
           <Socials />
-          <main>
+          <main className="slide-up">
             <Intro />
             <About />
             <Works />

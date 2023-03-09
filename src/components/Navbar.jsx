@@ -31,7 +31,7 @@ const MenuSidebar = () => (
       ))}
     </ol>
     <div className={`nav-slide-top ${globalStyles.btn} ${styles.btn}`}>
-      Hire me
+      <a href="mailto:hafizajayi2308@gmail.com">Hire me</a>
     </div>
   </div>
 );
