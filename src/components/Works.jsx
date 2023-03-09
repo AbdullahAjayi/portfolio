@@ -9,7 +9,7 @@ const styles = {
   projectLinks: "cursor-pointer hover:bg-blue-100 p-3 rounded-lg",
   workList: "mt-4 grid gap-3 gap-y-10",
   listItem:
-    "works animate-on-scroll flex flex-col border border-[#090e50] rounded-md p-2",
+    "box animate-on-scroll flex flex-col border border-[#090e50] rounded-md p-2",
   image: "h-40 border border-[#090e50] overflow-hidden rounded-md",
 };
 

@@ -13,24 +13,6 @@ import {
 } from "./components";
 
 const App = () => {
-  // const [screenSize, setScreenSize] = useState();
-  // const [smallScreen, setSmallScreen] = useState(false);
-
-  // useEffect(() => {
-  //   const handleResize = () => setScreenSize(window.innerWidth);
-  //   handleResize();
-  //   window.addEventListener("resize", handleResize);
-  //   return () => window.removeEventListener("resize", handleResize);
-  // }, []);
-
-  // useEffect(() => {
-  //   if (screenSize < 425) {
-  //     setSmallScreen(true);
-  //   } else {
-  //     setSmallScreen(false);
-  //   }
-  // }, [screenSize]);
-
   const [logoPage, setLogoPage] = useState(true);
   const [scrollY, setScrollY] = useState(0);
 
@@ -46,23 +28,25 @@ const App = () => {
   const handleScrollAnimation = () => {
     const scrollAnimElements = document.querySelectorAll(".animate-on-scroll");
     const works = document.querySelectorAll(".works");
+    // Checks to see if element is in view
     const elementInView = (el, dimension = 1) => {
       const elementTop = el.getBoundingClientRect().top;
       const elementHeight = el.getBoundingClientRect().height;
       return (
+        // Returns true or false
         elementTop <=
-        //
         window.innerHeight - (elementHeight - dimension * elementHeight)
       );
     };
     const animateOnScroll = () => {
       scrollAnimElements.forEach((element) => {
-        if (element.classList.contains("works")) {
-          if (elementInView(element, 1 / 2)) {
+        if (element.classList.contains("box")) {
+          if (elementInView(element, 3 / 4)) {
             element.style.opacity = "1";
             element.classList.add("slide-top");
           } else {
             element.style.opacity = "0";
+            element.style.transition = "opacity 0.5s .5s";
             element.classList.remove("slide-top");
           }
         } else if (elementInView(element, 1 / 4)) {
@@ -70,6 +54,7 @@ const App = () => {
           element.classList.add("slide-top");
         } else {
           element.style.opacity = "0";
+          element.style.transition = "opacity 0.5s .5s";
           element.classList.remove("slide-top");
         }
       });

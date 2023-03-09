@@ -5,7 +5,7 @@ import { globalStyles } from "../styles/globalStyles";
 
 const styles = {
   servicesList: "mt-10 grid gap-3 gap-y-10",
-  listItem: "border border-[#090e50] rounded-md p-2 pb-4",
+  listItem: "box animate-on-scroll border border-[#090e50] rounded-md p-2 pb-4",
   image: "h-40 border border-[#090e50] overflow-hidden rounded-md",
 };
 
@@ -13,7 +13,9 @@ const Services = () => {
   const [matches] = useMedia();
   return (
     <section id="services" className={globalStyles.section}>
-      <h2 className={globalStyles.heading}>What I do.</h2>
+      <h2 className={`animate-on-scroll ${globalStyles.heading}`}>
+        What I do.
+      </h2>
       <ul
         className={`${styles.servicesList} ${
           matches < 560
@@ -44,7 +46,7 @@ const Services = () => {
           </li>
         ))}
       </ul>
-      <div className="text-lg mt-5 border border-orange-300 bg-yellow-50 p-3 rounded-md w-fit">
+      <div className="text-lg animate-on-scroll mt-5 border border-orange-300 bg-yellow-50 p-3 rounded-md w-fit">
         💡Have an idea?{" "}
         <a
           href="mailto:hafizajayi230@gmail.com"
