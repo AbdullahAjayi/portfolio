@@ -1,15 +1,48 @@
+import { useEffect, useState } from "react";
 import { services } from "../data/dummy";
+import elementInView from "../funcs/elementInView";
 import useMedia from "../hooks/mediaQuery";
 import { globalStyles } from "../styles/globalStyles";
 
 const styles = {
   servicesList: "mt-10 grid gap-3 gap-y-10",
-  listItem: "box animate-on-scroll border border-[#090e50] rounded-md p-2 pb-4",
+  listItem:
+    "list-item box animate-on-scroll border border-[#090e50] rounded-md p-2 pb-4",
   image: "h-40 border border-[#090e50] overflow-hidden rounded-md",
 };
 
 const Services = () => {
   const [matches] = useMedia();
+  const [scrollY, setScrollY] = useState(0);
+
+  function handleListItemInView() {
+    let listItemsInView = [];
+    const listItems = [...document.getElementsByClassName("list-item")];
+    function inView() {
+      for (let i = 0; i < listItems.length; i++) {
+        if (elementInView(listItems[i], 1 / 2)) {
+          const inview = true;
+          listItemsInView.push(inview);
+        } else {
+          const inview = false;
+          listItemsInView.push(inview);
+        }
+      }
+    }
+    inView();
+    return listItemsInView;
+  }
+
+  const inView = handleListItemInView();
+
+  useEffect(() => {
+    const handleScrollEvent = () => setScrollY(window.scrollY);
+    window.addEventListener("scroll", handleScrollEvent);
+  }, []);
+  useEffect(() => {
+    handleListItemInView();
+  }, [scrollY]);
+
   return (
     <section id="services" className={globalStyles.section}>
       <h2 className={`animate-on-scroll ${globalStyles.heading}`}>
@@ -34,11 +67,13 @@ const Services = () => {
               }`}
               style={{ backgroundColor: "lightblue" }}
             >
-              <object
-                className="cursor-pointer"
-                data={item.svg}
-                type="image/svg+xml"
-              ></object>
+              {inView[index] && (
+                <object
+                  className="cursor-pointer"
+                  data={item.svg}
+                  type="image/svg+xml"
+                ></object>
+              )}
             </div>
             <h3 className={globalStyles.subheading}>{item.title}</h3>
             <p className="mt-3">{item.text}</p>
