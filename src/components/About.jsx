@@ -1,22 +1,42 @@
 import useMedia from "../hooks/mediaQuery";
 import { globalStyles } from "../styles/globalStyles";
 import { about } from "../data/dummy";
+import { useEffect } from "react";
 
 const About = () => {
-  const [matches] = useMedia();
+  const [matchesWidth, setMatchesWidth, matchesHeight, setMatchesHeigth] =
+    useMedia();
+
+  useEffect(() => {
+    const setMedia = () => {
+      setMatchesHeigth(window.innerHeight);
+      setMatchesWidth(window.innerWidth);
+    };
+    window.addEventListener("resize", setMedia);
+  }, []);
+
+  useEffect(() => {
+    setMatchesWidth(matchesWidth);
+    setMatchesHeigth(matchesHeight);
+  }, [matchesHeight, matchesWidth]);
+
   return (
     <section id="about" className={`${globalStyles.section}`}>
       <h2
-        className={`${matches <= 600 ? "animate-on-scroll" : ""} ${
-          globalStyles.heading
-        }`}
+        className={`${
+          matchesWidth <= 600 || matchesHeight <= 642
+            ? "animate-on-scroll"
+            : "opacity-100"
+        } ${globalStyles.heading}`}
       >
         About me.
       </h2>
       <p
-        className={`${matches <= 700 ? "animate-on-scroll" : ""} ${
-          globalStyles.sectionParagraph
-        } lg:w-600`}
+        className={`${
+          matchesWidth <= 700 || matchesHeight <= 642
+            ? "animate-on-scroll"
+            : "opacity-100"
+        } ${globalStyles.sectionParagraph} lg:w-600`}
       >
         {about.aboutMe}
       </p>

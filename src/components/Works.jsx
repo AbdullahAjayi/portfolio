@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import useMedia from "../hooks/mediaQuery";
 import { FiGithub, FiLink } from "react-icons/fi";
 
@@ -14,7 +15,16 @@ const styles = {
 };
 
 const Works = () => {
-  const [matches] = useMedia();
+  const [matchesWidth, setMatchesWidth] = useMedia();
+
+  useEffect(
+    () => window.addEventListener("resize", setMatchesWidth(window.innerWidth)),
+    []
+  );
+
+  useEffect(() => {
+    setMatchesWidth(matchesWidth);
+  }, [matchesWidth]);
 
   return (
     <section id="work" className={`${globalStyles.section}`}>
@@ -27,9 +37,9 @@ const Works = () => {
       </p>
       <ul
         className={`${styles.workList} ${
-          matches < 550
+          matchesWidth < 550
             ? "grid-cols-1"
-            : matches < 1000
+            : matchesWidth < 1000
             ? "grid-cols-2"
             : "grid-cols-3"
         }`}
@@ -40,7 +50,9 @@ const Works = () => {
               className={`${
                 styles.image
               } cursor-pointer mb-2 flex-none w-full ${
-                matches > 550 && matches < 1300 ? "flex items-center" : ""
+                matchesWidth > 550 && matchesWidth < 1300
+                  ? "flex items-center"
+                  : ""
               }`}
               style={{ backgroundColor: "lightblue" }}
             >

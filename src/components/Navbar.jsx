@@ -30,7 +30,7 @@ const MenuSidebar = () => (
         </a>
       ))}
     </ol>
-    <div className={`nav-slide-top ${globalStyles.btn} ${styles.btn}`}>
+    <div className={`${globalStyles.btn} ${styles.btn}`}>
       <a href="mailto:hafizajayi2308@gmail.com">Hire me</a>
     </div>
   </div>
