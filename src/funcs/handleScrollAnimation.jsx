@@ -10,7 +10,7 @@ const handleScrollAnimation = () => {
           element.classList.add("slide-top");
         } else {
           element.style.opacity = "0";
-          element.style.transition = "opacity";
+          element.style.transition = "opacity .3s";
           element.classList.remove("slide-top");
         }
       } else if (elementInView(element, 1 / 4)) {
@@ -19,7 +19,7 @@ const handleScrollAnimation = () => {
         element.classList.add("slide-top");
       } else {
         element.style.opacity = "0";
-        element.style.transition = "opacity";
+        element.style.transition = "opacity .3s";
         element.classList.remove("slide-top");
       }
     });

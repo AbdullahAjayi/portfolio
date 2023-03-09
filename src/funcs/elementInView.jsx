@@ -1,4 +1,4 @@
-// Checks to see if element is in view
+// @desc: Checks to see if element is in view
 const elementInView = (el, dimension = 1) => {
   const elementTop = el.getBoundingClientRect().top;
   const elementHeight = el.getBoundingClientRect().height;
