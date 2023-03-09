@@ -1,12 +1,22 @@
+import useMedia from "../hooks/mediaQuery";
 import { globalStyles } from "../styles/globalStyles";
 import { about } from "../data/dummy";
 
 const About = () => {
+  const [matches] = useMedia();
   return (
     <section id="about" className={`${globalStyles.section}`}>
-      <h2 className={`animate-on-scroll ${globalStyles.heading}`}>About me.</h2>
+      <h2
+        className={`${matches <= 600 ? "animate-on-scroll" : ""} ${
+          globalStyles.heading
+        }`}
+      >
+        About me.
+      </h2>
       <p
-        className={`animate-on-scroll ${globalStyles.sectionParagraph} lg:w-600`}
+        className={`${matches <= 700 ? "animate-on-scroll" : ""} ${
+          globalStyles.sectionParagraph
+        } lg:w-600`}
       >
         {about.aboutMe}
       </p>
