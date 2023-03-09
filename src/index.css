@@ -32,21 +32,6 @@ body {
   height: 6px;
 }
 
-.slide-up {
-  animation: slide-up 0.7s;
-}
-
-@keyframes slide-up {
-  0% {
-    opacity: 0%;
-    transform: translateY(20px);
-  }
-  100% {
-    opacity: 100%;
-    transform: translateY(0);
-  }
-}
-
 .cursor-pointer {
   cursor: pointer !important;
 }
@@ -126,6 +111,23 @@ body {
 .menu-sidebar {
   animation: glow-in 0.2s linear;
   box-shadow: rgba(100 100 111 / 0.2) 0px 7px 29px 0px;
+}
+
+/* Animations */
+
+.slide-up {
+  animation: slide-up 0.7s;
+}
+
+@keyframes slide-up {
+  0% {
+    opacity: 0%;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 100%;
+    transform: translateY(0);
+  }
 }
 
 .socials {
