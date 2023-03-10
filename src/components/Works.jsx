@@ -15,16 +15,7 @@ const styles = {
 };
 
 const Works = () => {
-  const [matchesWidth, setMatchesWidth] = useMedia();
-
-  useEffect(
-    () => window.addEventListener("resize", setMatchesWidth(window.innerWidth)),
-    []
-  );
-
-  useEffect(() => {
-    setMatchesWidth(matchesWidth);
-  }, [matchesWidth]);
+  const { matchesWidth, setMatchesWidth } = useMedia();
 
   return (
     <section id="work" className={`${globalStyles.section}`}>
