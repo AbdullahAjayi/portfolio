@@ -15,7 +15,7 @@ const styles = {
 };
 
 const Works = () => {
-  const { matchesWidth, setMatchesWidth } = useMedia();
+  const { matchesWidth } = useMedia();
 
   return (
     <section id="work" className={`${globalStyles.section}`}>
