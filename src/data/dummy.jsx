@@ -167,7 +167,7 @@ const technologies = [
 const experience = [
   {
     company: "palladium innovations",
-    role: "trainer",
+    role: "web development trainer",
     desc: "Worked as a trainer for 2 weeks at Palladium Innovations. A digital marketing agency based in lagos, Nigeria.",
     link: "https://www.facebook.com/palladiuminnovations/",
   },
