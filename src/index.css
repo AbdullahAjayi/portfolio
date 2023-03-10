@@ -164,7 +164,7 @@ body {
 }
 
 .fade-in-bottom {
-  animation: fade-in-bottom 0.5s ease-in-out both;
+  animation: fade-in-bottom 0.5s ease-in-out 0.3s both;
 }
 
 /* ----------------------------------------------
