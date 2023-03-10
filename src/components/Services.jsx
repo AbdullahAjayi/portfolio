@@ -20,7 +20,7 @@ const Services = () => {
     const listItems = [...document.getElementsByClassName("list-item")];
     function inView() {
       for (let i = 0; i < listItems.length; i++) {
-        if (elementInView(listItems[i], 1 / 2)) {
+        if (elementInView(listItems[i], 2 / 3)) {
           const inview = true;
           listItemsInView.push(inview);
         } else {
