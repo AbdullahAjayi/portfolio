@@ -1,8 +1,10 @@
+import useMedia from "../hooks/mediaQuery";
+
 import { globalStyles } from "../styles/globalStyles";
 import { technologies, experience } from "../data/dummy";
 
 const styles = {
-  techStackList: "flex flex-wrap justify-center sm:justify-start gap-3 pt-3",
+  techStackList: "flex flex-wrap gap-3 pt-3",
   techStacks:
     "w-24 h-24 border-2 border-[#090e50] bg-[lightBlue] rounded-lg flex items-center justify-center cursor-pointer hover:-translate-y-1 duration-300 p-1 text-center break-words",
   experience: "pb-3 mb-3 border-b-[0.5px] border-[#090e50] border-t-[.2px]",
@@ -10,6 +12,7 @@ const styles = {
 };
 
 const Experience = () => {
+  const { matchesWidth } = useMedia();
   return (
     <section id="services" className={globalStyles.section}>
       <h2 className={`animate-on-scroll ${globalStyles.heading}`}>
@@ -25,7 +28,11 @@ const Experience = () => {
           <h3 className={globalStyles.smSubheading}>
             Some technologies I've worked with:
           </h3>
-          <ul className={styles.techStackList}>
+          <ul
+            className={`${styles.techStackList} ${
+              matchesWidth < 505 ? "justify-center" : "justify-start"
+            }`}
+          >
             {technologies.map((technology, index) => (
               <li key={index} className={styles.techStacks}>
                 <b>{technology}</b>
