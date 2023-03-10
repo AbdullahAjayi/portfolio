@@ -1,14 +1,4 @@
-import { FiGithub, FiTwitter, FiLinkedin, FiInstagram } from "react-icons/fi";
-
-const socials = [
-  { icon: <FiGithub />, link: "https://github.com/AbdullahAjayi" },
-  { icon: <FiTwitter />, link: "https://twitter.com/abdullahajayi" },
-  { icon: <FiInstagram />, link: "https://instagram.com/abdullahajayi" },
-  {
-    icon: <FiLinkedin />,
-    link: "https://www.linkedin.com/in/abdullah-ajayi-018a36239/",
-  },
-];
+import { socials } from "../data/dummy";
 
 const Socials = () => {
   return (
