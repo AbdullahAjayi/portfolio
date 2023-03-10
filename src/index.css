@@ -135,7 +135,7 @@ body {
 }
 
 .socials {
-  animation: display-socials 1.7s linear;
+  animation: display-socials 1.2s linear;
 }
 
 .nav-slide-top:nth-child(1) {
@@ -164,7 +164,7 @@ body {
 }
 
 .fade-in-bottom {
-  animation: fade-in-bottom 1s ease-in-out both;
+  animation: fade-in-bottom 0.5s ease-in-out both;
 }
 
 /* ----------------------------------------------
