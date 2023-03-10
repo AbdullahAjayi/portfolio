@@ -13,7 +13,7 @@ const Experience = () => {
   return (
     <section id="services" className={globalStyles.section}>
       <h2 className={`animate-on-scroll ${globalStyles.heading}`}>
-        Experience
+        Experience.
       </h2>
       <p className={`animate-on-scroll ${globalStyles.sectionParagraph}`}>
         I have been actively involved in web development for about a year now,
