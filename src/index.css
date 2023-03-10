@@ -134,6 +134,10 @@ body {
   animation: display-socials 1.7s linear;
 }
 
+.animate-on-scroll {
+  opacity: 1;
+}
+
 .nav-slide-top:nth-child(1) {
   animation: nav-slide-top 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.15s both;
 }
