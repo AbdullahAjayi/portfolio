@@ -29,7 +29,7 @@ const useMedia = () => {
     );
   }, []);
 
-  return [matchesWidth, setMatchesWidth, matchesHeight, setMatchesHeigth];
+  return { matchesWidth, setMatchesWidth, matchesHeight, setMatchesHeigth };
 };
 
 export default useMedia;
