@@ -44,6 +44,10 @@ body {
   margin-top: 20px;
 }
 
+.btn:hover .arrow {
+  transform: translateX(3px);
+}
+
 .vertical-lr {
   writing-mode: vertical-lr;
 }
@@ -116,7 +120,7 @@ body {
 /* Animations */
 
 .slide-up {
-  animation: slide-up 0.7s;
+  animation: slide-up 0.5s;
 }
 
 @keyframes slide-up {
@@ -132,10 +136,6 @@ body {
 
 .socials {
   animation: display-socials 1.7s linear;
-}
-
-.animate-on-scroll {
-  opacity: 1;
 }
 
 .nav-slide-top:nth-child(1) {
