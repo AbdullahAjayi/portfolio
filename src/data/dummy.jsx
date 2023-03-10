@@ -1,3 +1,5 @@
+import { FiGithub, FiTwitter, FiLinkedin, FiInstagram } from "react-icons/fi";
+
 import image1 from "../asset/images/image1.png";
 import image2 from "../asset/images/image2.png";
 import image3 from "../asset/images/image3.png";
@@ -24,6 +26,18 @@ const navItems = [
   {
     title: "Contact",
     navigation: "#contact",
+  },
+];
+
+// Social links
+
+const socials = [
+  { icon: <FiGithub />, link: "https://github.com/AbdullahAjayi" },
+  { icon: <FiTwitter />, link: "https://twitter.com/abdullahajayi" },
+  { icon: <FiInstagram />, link: "https://instagram.com/abdullahajayi" },
+  {
+    icon: <FiLinkedin />,
+    link: "https://www.linkedin.com/in/abdullah-ajayi-018a36239/",
   },
 ];
 
@@ -164,4 +178,4 @@ const experience = [
   },
 ];
 
-export { navItems, about, works, services, technologies, experience };
+export { navItems, socials, about, works, services, technologies, experience };
