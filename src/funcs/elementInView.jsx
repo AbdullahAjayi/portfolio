@@ -5,7 +5,14 @@ const elementInView = (el, dimension = 1) => {
   return (
     // Returns true or false
     Math.round(elementTop) <=
-    Math.round(window.innerHeight - (elementHeight - dimension * elementHeight))
+      Math.round(
+        window.innerHeight - (elementHeight - dimension * elementHeight)
+      ) ||
+    Math.round(elementTop) <=
+      Math.round(
+        document.documentElement.clientHeight -
+          (elementHeight - dimension * elementHeight)
+      )
   );
 };
 

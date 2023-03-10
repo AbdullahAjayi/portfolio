@@ -4,15 +4,15 @@ const handleScrollAnimation = () => {
   const animateOnScroll = () => {
     scrollAnimElements.forEach((element) => {
       if (element.classList.contains("box")) {
-        if (elementInView(element, 1 / 2)) {
-          element.classList.add("slide-top");
+        if (elementInView(element, 2 / 3)) {
+          element.classList.add("fade-in-bottom");
         } else {
-          element.classList.remove("slide-top");
+          element.classList.remove("fade-in-bottom");
         }
       } else if (elementInView(element, 1 / 4)) {
-        element.classList.add("slide-top");
+        element.classList.add("fade-in-bottom");
       } else {
-        element.classList.remove("slide-top");
+        element.classList.remove("fade-in-bottom");
       }
     });
   };
