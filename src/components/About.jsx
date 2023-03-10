@@ -4,40 +4,19 @@ import { about } from "../data/dummy";
 import { useEffect } from "react";
 
 const About = () => {
-  const [matchesWidth, setMatchesWidth, matchesHeight, setMatchesHeigth] =
+  const { matchesWidth, setMatchesWidth, matchesHeight, setMatchesHeigth } =
     useMedia();
-
-  useEffect(() => {
-    const setMedia = () => {
-      setMatchesHeigth(window.innerHeight);
-      setMatchesWidth(window.innerWidth);
-    };
-    window.addEventListener("resize", setMedia);
-  }, []);
-
-  useEffect(() => {
-    setMatchesWidth(matchesWidth);
-    setMatchesHeigth(matchesHeight);
-  }, [matchesHeight, matchesWidth]);
 
   return (
     <section id="about" className={`${globalStyles.section}`}>
-      <h2
-        className={`${
+      {/* // ! Fix UI bug of elements with dynamic animate-on-scroll class */}
+      {/* ${
           matchesWidth <= 600 || matchesHeight <= 642
             ? "animate-on-scroll"
             : "opacity-100"
-        } ${globalStyles.heading}`}
-      >
-        About me.
-      </h2>
-      <p
-        className={`${
-          matchesWidth <= 700 || matchesHeight <= 642
-            ? "animate-on-scroll"
-            : "opacity-100"
-        } ${globalStyles.sectionParagraph} lg:w-600`}
-      >
+        } */}
+      <h2 className={`${globalStyles.heading}`}>About me.</h2>
+      <p className={`${globalStyles.sectionParagraph} lg:w-600`}>
         {about.aboutMe}
       </p>
       <div className="animate-on-scroll italic mt-3 font-semibold text-lg">
