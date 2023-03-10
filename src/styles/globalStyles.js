@@ -4,6 +4,7 @@ export const globalStyles = {
   heading: "mt-5 md:mt-0 text-[#090e50] text-3xl md:text-5xl font-bold",
   subheading: "text-2xl md:text-3xl text-[#090e50] font-bold",
   smSubheading: "text-lg md:text-xl text-[#090e50] font-bold my-3",
+  xmSubheading: "animate-on-scroll text-lg italic",
   sectionParagraph: "text-[#090e50] md:text-[1.05rem] mt-3",
   btn: "border-[1.5px] border-[#090e50] bg-blue-100 hover:bg-blue-200 rounded-md text-[#090e50] cursor-pointer",
   secondaryBtn:
