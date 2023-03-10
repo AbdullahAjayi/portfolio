@@ -14,8 +14,10 @@ const About = () => {
             ? "animate-on-scroll"
             : "opacity-100"
         } */}
-      <h2 className={`${globalStyles.heading}`}>About me.</h2>
-      <p className={`${globalStyles.sectionParagraph} lg:w-600`}>
+      <h2 className={`animate-on-scroll ${globalStyles.heading}`}>About me.</h2>
+      <p
+        className={`animate-on-scroll ${globalStyles.sectionParagraph} lg:w-600`}
+      >
         {about.aboutMe}
       </p>
       <div className="animate-on-scroll italic mt-3 font-semibold text-lg">
