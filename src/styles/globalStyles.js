@@ -8,7 +8,7 @@ export const globalStyles = {
   sectionParagraph: "text-[#090e50] md:text-[1.05rem] mt-3",
   btn: "border-[1.5px] border-[#090e50] bg-blue-100 hover:bg-blue-200 rounded-md text-[#090e50] cursor-pointer",
   secondaryBtn:
-    "italic underline text-blue-700 hover:no-underline transition-transform duration-300 font-semibold",
+    "underline text-blue-700 hover:no-underline transition-transform duration-300 font-semibold",
   callout:
     "text-lg animate-on-scroll mt-5 border border-orange-300 bg-yellow-50 p-3 rounded-md w-fit",
 };

@@ -77,14 +77,14 @@ const Services = () => {
                   type="image/svg+xml"
                 ></object>
               )}
-              {/* Svg still shows (but without animation) if js doesn't load as a result for any reason */}
-              {!inView[index] && (
+              {/* // !Svg still shows (but without animation) if js doesn't load as a result for any reason */}
+              {/* {!inView[index] && (
                 <object
                   className="cursor-pointer"
                   data={item.svg}
                   type="image/svg+xml"
                 ></object>
-              )}
+              )} */}
             </div>
             <h3 className={globalStyles.subheading}>{item.title}</h3>
             <p className="mt-3">{item.text}</p>
@@ -92,7 +92,7 @@ const Services = () => {
         ))}
       </ul>
       <div className="text-sm sm:text-md md:text-lg animate-on-scroll mt-5 border border-orange-300 bg-yellow-50 p-3 rounded-md w-fit">
-        💡Need help with any of these?{" "}
+        💡 Need help with any of these?{" "}
         <a
           href="mailto:hafizajayi230@gmail.com"
           className={globalStyles.secondaryBtn}
