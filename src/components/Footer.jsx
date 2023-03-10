@@ -4,7 +4,7 @@ import { globalStyles } from "../styles/globalStyles";
 const Footer = () => {
   return (
     <div className={`${globalStyles.section} pb-5`}>
-      <div className="border-t border-[#090e50] pt-5 sm:text-center">
+      <div className="border-t border-[#090e50] pt-5 text-center">
         <ul className="flex justify-center md:hidden gap-10 pb-4 text-xl mt-5">
           {socials.map((item, index) => (
             <li key={index} className="">
