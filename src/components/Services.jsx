@@ -12,7 +12,7 @@ const styles = {
 };
 
 const Services = () => {
-  const [matches] = useMedia();
+  const { matchesWidth } = useMedia();
   const [scrollY, setScrollY] = useState(0);
 
   function handleListItemInView() {
@@ -50,9 +50,9 @@ const Services = () => {
       </h2>
       <ul
         className={`${styles.servicesList} ${
-          matches < 560
+          matchesWidth < 560
             ? "grid-cols-1"
-            : matches < 1000
+            : matchesWidth < 1000
             ? "grid-cols-2"
             : "grid-cols-3"
         }`}
@@ -63,11 +63,22 @@ const Services = () => {
               className={`${
                 styles.image
               } cursor-pointer mb-2 flex justify-center w-full ${
-                matches > 550 && matches < 1300 ? "flex items-center" : ""
+                matchesWidth > 550 && matchesWidth < 1300
+                  ? "flex items-center"
+                  : ""
               }`}
               style={{ backgroundColor: "lightblue" }}
             >
+              {/* Animate svgs when in view */}
               {inView[index] && (
+                <object
+                  className="cursor-pointer"
+                  data={item.svg}
+                  type="image/svg+xml"
+                ></object>
+              )}
+              {/* Svg still shows (but without animation) if js doesn't load as a result for any reason */}
+              {!inView[index] && (
                 <object
                   className="cursor-pointer"
                   data={item.svg}
@@ -80,13 +91,13 @@ const Services = () => {
           </li>
         ))}
       </ul>
-      <div className="text-lg animate-on-scroll mt-5 border border-orange-300 bg-yellow-50 p-3 rounded-md w-fit">
-        💡Have an idea?{" "}
+      <div className="text-sm sm:text-md md:text-lg animate-on-scroll mt-5 border border-orange-300 bg-yellow-50 p-3 rounded-md w-fit">
+        💡Need help with any of these?{" "}
         <a
           href="mailto:hafizajayi230@gmail.com"
           className={globalStyles.secondaryBtn}
         >
-          Tell me about it
+          Send me a DM
         </a>
       </div>
     </section>
