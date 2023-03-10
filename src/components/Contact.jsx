@@ -3,12 +3,12 @@ import { FiArrowRight } from "react-icons/fi";
 import { globalStyles } from "../styles/globalStyles";
 
 const styles = {
-  input: "flex-1 w-full h-10 p-5 outline-none bg-blue-100 rounded-md",
-  btn: "px-12 w-fit p-3 mt-8 text-lg flex items-center justify-center gap-1",
+  input:
+    "flex-1 w-full h-10 p-5 outline-none bg-blue-100 rounded-md text-[#090e50]",
+  btn: "px-12 w-fit p-3 mt-8 text-lg flex items-center justify-center gap-1 h-full",
 };
 
 const Contact = () => {
-  const { matchesWidth } = useMedia();
   return (
     <section
       id="contact"
@@ -42,14 +42,14 @@ const Contact = () => {
           />
         </div>
         <div className="w-full">
-          <input
+          <textarea
             required
-            className={`${styles.input} h-[150px]`}
+            className={`${styles.input} h-[150px] resize-none`}
             type="text"
             placeholder="Your message"
           />
         </div>
-        <div className="flex justify-center cursor-pointer">
+        <div className="flex flex-1 justify-center items-center cursor-pointer">
           <button className={`btn ${globalStyles.btn} ${styles.btn}`}>
             <input
               className="text-sm font-semibold uppercase"
