@@ -10,6 +10,7 @@ import {
   About,
   Socials,
   Footer,
+  BackToTop,
 } from "./components";
 import handleScrollAnimation from "./funcs/handleScrollAnimation";
 
@@ -24,6 +25,7 @@ const App = () => {
 
     const handleScrollEvent = () => setScrollY(window.scrollY);
     window.addEventListener("scroll", handleScrollEvent);
+    window.addEventListener("resize", handleScrollAnimation);
   }, []);
 
   useEffect(() => {
@@ -46,6 +48,7 @@ const App = () => {
             <Navbar />
           </header>
           <Socials />
+          <BackToTop />
           <main className="slide-up">
             <Intro />
             <About />
