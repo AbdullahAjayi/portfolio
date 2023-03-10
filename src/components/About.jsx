@@ -1,7 +1,6 @@
 import useMedia from "../hooks/mediaQuery";
 import { globalStyles } from "../styles/globalStyles";
 import { about } from "../data/dummy";
-import { useEffect } from "react";
 
 const About = () => {
   const { matchesWidth, setMatchesWidth, matchesHeight, setMatchesHeigth } =
