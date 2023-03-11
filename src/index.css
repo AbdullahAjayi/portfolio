@@ -117,10 +117,23 @@ body {
   box-shadow: rgba(100 100 111 / 0.2) 0px 7px 29px 0px;
 }
 
+#take-me-up {
+  animation: glow-in 0.2s linear;
+}
+
 /* Animations */
 
 .slide-up {
   animation: slide-up 0.5s;
+}
+
+@keyframes glow-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes slide-up {
@@ -133,7 +146,6 @@ body {
     transform: translateY(0);
   }
 }
-
 .socials {
   animation: display-socials 1.2s linear;
 }
