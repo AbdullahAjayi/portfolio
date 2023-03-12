@@ -28,7 +28,7 @@
           stroke-dashoffset: 242;
           fill: #090e50;
           opacity: 0;
-          animation: TvgfwFys_draw 2500ms linear 1500ms forwards;
+          animation: TvgfwFys_draw 1.5s cubic-bezier(.19,.84,.83,.67) 1500ms forwards;
           animation: display_text 2000ms ease-in-out 1700ms forwards;
         }
         @keyframes display_text {
