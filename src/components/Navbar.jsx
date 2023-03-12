@@ -30,9 +30,9 @@ const MenuSidebar = () => (
         </a>
       ))}
     </ol>
-    <div className={`${globalStyles.btn} ${styles.btn}`}>
+    <h2 className={`${globalStyles.btn} ${styles.btn}`}>
       <a href="#contact">Hire me</a>
-    </div>
+    </h2>
   </div>
 );
 

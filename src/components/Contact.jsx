@@ -13,9 +13,9 @@ const Contact = () => {
       id="contact"
       className={`${globalStyles.section} flex flex-col items-center text-center`}
     >
-      <h1 className={`animate-on-scroll ${globalStyles.heading}`}>
+      <h2 className={`animate-on-scroll ${globalStyles.heading}`}>
         Get In Touch.
-      </h1>
+      </h2>
       <p
         className={`animate-on-scroll ${globalStyles.sectionParagraph} md:text-center`}
       >
@@ -24,7 +24,10 @@ const Contact = () => {
         might be a good fit for each other, or just want to say hello, go ahead!
         Send me a mail.
       </p>
-      <form className="box animate-on-scroll mt-10 w-full max-w-[500px] flex flex-col gap-5">
+      <form
+        onSubmit={() => {}}
+        className="box animate-on-scroll mt-10 w-full max-w-[500px] flex flex-col gap-5"
+      >
         <div className="flex flex-col md:flex-row  gap-3">
           <input
             className={styles.input}
