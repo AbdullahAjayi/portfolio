@@ -1,4 +1,3 @@
-import useMedia from "../hooks/mediaQuery";
 import { FiArrowRight } from "react-icons/fi";
 import { globalStyles } from "../styles/globalStyles";
 
