@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import useMedia from "../hooks/mediaQuery";
-import { FiGithub, FiLink } from "react-icons/fi";
+import { FiExternalLink, FiGithub, FiLink } from "react-icons/fi";
 
 import { works } from "../data/dummy";
 import { globalStyles } from "../styles/globalStyles";
@@ -74,7 +74,7 @@ const Works = () => {
               )}
               {item.liveSite ? (
                 <a href={item.liveSite} className={styles.projectLinks}>
-                  <i>{<FiLink />}</i>
+                  <i>{<FiExternalLink />}</i>
                 </a>
               ) : (
                 ""
