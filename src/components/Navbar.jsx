@@ -31,7 +31,7 @@ const MenuSidebar = () => (
       ))}
     </ol>
     <div className={`${globalStyles.btn} ${styles.btn}`}>
-      <a href="mailto:hafizajayi2308@gmail.com">Hire me</a>
+      <a href="#contact">Hire me</a>
     </div>
   </div>
 );
@@ -59,7 +59,7 @@ const Navbar = () => {
           ))}
         </ol>
         <div className={`${globalStyles.btn} ${styles.btn}`}>
-          <a href="mailto:hafizajayi2308@gmail.com">Hire me</a>
+          <a href="#contact">Hire me</a>
         </div>
       </div>
       <button className={styles.menuBtn} onClick={() => handleClick()}>
