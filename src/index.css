@@ -172,7 +172,7 @@ body {
 }
 
 .fade-in-bottom {
-  animation: fade-in-bottom 0.5s cubic-bezier(0.39, 0.575, 0.565, 1) 0.2s both;
+  animation: fade-in-bottom 1s cubic-bezier(0.39, 0.575, 0.565, 1) 0.3s both;
 }
 
 /* ----------------------------------------------
