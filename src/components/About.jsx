@@ -3,17 +3,8 @@ import { globalStyles } from "../styles/globalStyles";
 import { about } from "../data/dummy";
 
 const About = () => {
-  const { matchesWidth, setMatchesWidth, matchesHeight, setMatchesHeigth } =
-    useMedia();
-
   return (
     <section id="about" className={`${globalStyles.section}`}>
-      {/* // ! Fix UI bug of elements with dynamic animate-on-scroll class */}
-      {/* ${
-          matchesWidth <= 600 || matchesHeight <= 642
-            ? "animate-on-scroll"
-            : "opacity-100"
-        } */}
       <h2 className={`animate-on-scroll ${globalStyles.heading}`}>About me.</h2>
       <p
         className={`animate-on-scroll ${globalStyles.sectionParagraph} lg:w-600`}
