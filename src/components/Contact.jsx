@@ -74,10 +74,10 @@ const Contact = () => {
       <p
         className={`animate-on-scroll ${globalStyles.sectionParagraph} md:text-center`}
       >
-        I am looking forward to working with a team of creative designers and
-        developers working towards bringing an idea to life. If you think we
-        might be a good fit for each other, or just want to say hello, go ahead!
-        Send me a mail.
+        I am excited to collaborate with a team of innovative designers and
+        developers to bring ideas to life. If you believe we can work well
+        together or simply want to say hello, feel free to send me an email. I'm
+        looking forward to hearing from you!
       </p>
       <form
         onSubmit={handleSubmit}
