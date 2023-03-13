@@ -22,15 +22,12 @@ const Intro = () => {
               Frontend Developer.
             </h1>
           </div>
-          <p className={`${globalStyles.sectionParagraph} md:!text-lg`}>
-            I like to craft cutting-edge user interfaces with intutively
+          <p className={`${globalStyles.sectionParagraph} text-lg md:text-xl`}>
+            I like to craft cutting-edge user interfaces with intuitively
             implemented UX.
           </p>
-          <p className={`${globalStyles.sectionParagraph} md:!text-lg`}>
-            I am passionate about{" "}
-            <span className="font-medium">solving problems</span> and{" "}
-            <span className="font-medium">transforming ideas to reality</span>.{" "}
-            <br />
+          <p className={`${globalStyles.sectionParagraph} text-lg md:text-xl`}>
+            I'm passionate about solving problems and bringing ideas to life.
           </p>
           <div
             className={`${globalStyles.btn} px-10 w-full md:w-fit p-3 mt-8 text-lg`}
