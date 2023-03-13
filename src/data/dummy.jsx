@@ -5,6 +5,7 @@ import image2 from "../asset/images/image2.png";
 import image3 from "../asset/images/image3.png";
 import image4 from "../asset/images/image4.png";
 import image5 from "../asset/images/image5.png";
+import image6 from "../asset/images/image6.png";
 
 import svg1 from "../asset/svg/svg1.svg";
 import svg2 from "../asset/svg/svg2.svg";
@@ -76,59 +77,59 @@ const works = [
     title: "The css box model",
     image: image1,
     caption:
-      "A website I created to help newbies understand confusing concept surroudning the css box model such as flex-box, margin, padding and other box elements.",
+      "A website aimed at assisting beginners in comprehending complicated ideas related to the CSS box model, including flex-box, margin, padding, and other box elements.",
     alt: "The css box model",
-    tags: ["Css", "Sass", "JavaScript", "DOM"],
+    tags: ["CSS", "SASS", "JavaScript", "DOM"],
     githubLink: "https://github.com/AbdullahAjayi",
     liveSite: "https://the-css-box-model.vercel.app",
   },
   {
     title: "GPT3-ai web",
     image: image2,
-    caption: "An awesome website I worked on to improve my UI UX skills.",
+    caption:
+      "A website I designed and developed to hone my skills in UI/UX. This project allowed me to gain experience in creating visually appealing interfaces, implementing best practices in user experience design, and utilizing industry-standard design tools.",
     alt: "GPT3-ai web",
-    tags: ["Css", "BEM", "UI UX", "React"],
-    githubLink: "https://github.com/AbdullahAjayi",
-    liveSite: "https://gpt3aiweb.vercel.app",
+    tags: ["CSS", "BEM", "UI UX", "React", "Figma"],
+    githubLink: "https://github.com/AbdullahAjayi/Gpt3aiweb",
+    liveSite: "http://gpt3aiweb.vercel.app/",
   },
   {
     image: image3,
     title: "Minimal Tube",
     caption:
-      "A website built to test my Reactjs skills, by building a YouTube clone where you can browse categories of videos, search, watch and lots more.",
+      "A YouTube clone I developed using ReactJS, to improve my skills. The clone allows users to browse video categories, search for videos, and watch them on the site. Through this project, I was able to enhance my proficiency in ReactJS and expand my knowledge of web development.",
     alt: "Minimal Tube",
-    tags: ["ReactJS", "Material UI", "JavaScript"],
-    githubLink: "https://github.com/AbdullahAjayi",
+    tags: ["ReactJS", "Material UI", "JavaScript", "API"],
+    githubLink: "https://github.com/AbdullahAjayi/youtube-clone",
     liveSite: "https://minimal-tube.vercel.app",
   },
   {
     title: "Random Advice Generator",
     image: image4,
     caption:
-      "A challenge I took from the front-end mentor website to improve my CSS, JavaScript, API and design skills.",
+      "A challenge I tackled from Frontend Mentor to improve my skills in CSS, JavaScript, API integration, and design.",
     alt: "Random Advice generator",
-    tags: ["Css", "Sass", "JavaScript", "API"],
-    githubLink: "https://github.com/AbdullahAjayi",
-    liveSite: "https://random-advice-generator.vercel.app",
+    tags: ["CSS", "JavaScript", "API"],
+    githubLink: "https://github.com/AbdullahAjayi/Random-advice-genrator",
+    liveSite: "https://random-advice-genrator.vercel.app",
   },
   {
     title: "Portfolio Website (v1)",
     image: image5,
-    caption: "Yup, this one you're exploring 😉.",
+    caption:
+      "This is the website you're currently exploring, and I learned a great deal about CSS and SVG animations while creating it.",
     alt: "",
-    tags: ["JavaScript", "Tailwind", "Css", "React"],
-    githubLink: "https://github.com/AbdullahAjayi/portfolio",
-    liveSite: "",
+    tags: ["JavaScript", "Tailwind", "CSS", "React", "SVG"],
   },
   {
-    title: "Lorem Ipsum",
-    image: "",
+    title: "React Dashboard Application",
+    image: image6,
     caption:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, at! Similique animi exercitationem voluptate sit!",
+      "I spent several days building this impressive app by following a tutorial on YouTube, which helped me to learn more about industry-standard React code practices.",
     alt: "",
-    tags: ["Css", "Sass", "JavaScript"],
-    githubLink: "https://github.com/AbdullahAjayi",
-    liveSite: "",
+    tags: ["Tailwind", "React", "Syncfusion"],
+    githubLink: "https://github.com/AbdullahAjayi/Admin-Dashboard",
+    liveSite: "https://admin-dashboard-abdullahajayi.vercel.app/",
   },
 ];
 
@@ -168,13 +169,12 @@ const experience = [
   {
     company: "palladium innovations",
     role: "web development trainer",
-    desc: "Worked as a trainer for 2 weeks at Palladium Innovations. A digital marketing agency based in lagos, Nigeria.",
+    desc: "For a period of two weeks, I worked as a trainer at Palladium Innovations, a digital marketing agency based in Lagos, Nigeria, where I taught people the fundamentals of website development.",
     link: "https://www.facebook.com/palladiuminnovations/",
   },
   {
     company: "xaliyo",
     role: "lead developer",
-    desc: "A new startup based in lagos, Nigeria",
   },
 ];
 
