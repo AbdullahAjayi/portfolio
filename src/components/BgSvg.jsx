@@ -1,4 +1,5 @@
 import bgSvg from "../asset/svg/Jet1.svg";
+
 function BgSvg() {
   return (
     <object
