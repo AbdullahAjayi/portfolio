@@ -94,7 +94,7 @@ const Services = () => {
       <div className="text-sm sm:text-md md:text-lg animate-on-scroll mt-5 border border-orange-300 bg-yellow-50 p-3 rounded-md w-full sm:w-fit">
         💡 Need help with any of these?{" "}
         <a
-          href="https://wa.me/+2348120388157"
+          href="https://wa.link/ybvypa"
           target="_blank"
           className={globalStyles.secondaryBtn}
         >
