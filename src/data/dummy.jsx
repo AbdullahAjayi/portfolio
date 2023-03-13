@@ -47,7 +47,7 @@ const socials = [
 const about = {
   aboutMe: (
     <>
-      Greetings, my name is Abdullah. I'm passionate about problem-solving and
+      Hello, my name is Abdullah. I'm passionate about problem-solving and
       turning abstract ideas into reality. Whether it's tackling technical
       challenges or finding creative solutions to design problems,{" "}
       <span className="font-medium">
