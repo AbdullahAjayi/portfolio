@@ -81,9 +81,10 @@ const Contact = () => {
       </p>
       <form
         onSubmit={handleSubmit}
-        className="box animate-on-scroll mt-10 w-full max-w-[500px] flex flex-col gap-5"
+        className="box animate-on-scroll mt-10 w-full max-w-[500px] flex flex-col gap-5 text-left"
       >
         <div className="flex flex-col gap-3">
+          <label htmlFor="name">Name</label>
           <input
             className={styles.input}
             type="text"
@@ -93,6 +94,7 @@ const Contact = () => {
             onChange={handleChange}
             placeholder="Enter your name"
           />
+          <label htmlFor="email">Email</label>
           <input
             className={styles.input}
             type="email"
@@ -105,8 +107,9 @@ const Contact = () => {
           />
         </div>
         <div className="w-full">
+          <label htmlFor="message">Your message</label>
           <textarea
-            className={`${styles.input} h-[150px] resize-none`}
+            className={`${styles.input} h-[150px] resize-none mt-3`}
             type="text"
             name="message"
             id="message"
