@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import useMedia from "../hooks/mediaQuery";
 import { FiExternalLink, FiGithub, FiLink } from "react-icons/fi";
 
@@ -66,15 +65,23 @@ const Works = () => {
             </ul>
             <div className="flex gap-4 mt-3">
               {item.githubLink ? (
-                <a href={item.githubLink} className={styles.projectLinks}>
+                <a
+                  href={item.githubLink}
+                  target="_blank"
+                  className={styles.projectLinks}
+                >
                   <i>{<FiGithub />}</i>
                 </a>
               ) : (
                 ""
               )}
               {item.liveSite ? (
-                <a href={item.liveSite} className={styles.projectLinks}>
-                  <i>{<FiExternalLink />}</i>
+                <a
+                  href={item.liveSite}
+                  target="_blank"
+                  className={styles.projectLinks}
+                >
+                  <i>{<FiLink />}</i>
                 </a>
               ) : (
                 ""
