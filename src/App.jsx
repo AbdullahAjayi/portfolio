@@ -10,6 +10,7 @@ import {
   About,
   Socials,
   Footer,
+  BgSvg,
   BackToTop,
 } from "./components";
 import handleScrollAnimation from "./funcs/handleScrollAnimation";
@@ -49,6 +50,7 @@ const App = () => {
           </header>
           <Socials />
           <BackToTop />
+          <BgSvg />
           <main className="slide-up">
             <Intro />
             <About />

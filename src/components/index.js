@@ -5,6 +5,7 @@ export { default as Services } from "./Services";
 export { default as BackToTop } from "./BackToTop";
 export { default as Experience } from "./Experience";
 export { default as Logo } from "./Logo";
+export { default as BgSvg } from "./BgSvg";
 export { default as About } from "./About";
 export { default as Socials } from "./Socials";
 export { default as Contact } from "./Contact";
