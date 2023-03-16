@@ -1,6 +1,5 @@
 import ProfilePic from "../asset/images/ProfilePic.png";
 import { globalStyles } from "../styles/globalStyles";
-import { useEffect } from "react";
 
 const styles = {
   flexContainer:
@@ -32,7 +31,7 @@ const Intro = () => {
           <div
             className={`${globalStyles.btn} px-10 w-full md:w-fit p-3 mt-8 text-lg`}
           >
-            <a href="mailto:hafizajayi2308@gmail.com">Let's work together</a>
+            <a href="#contact">Let's work together</a>
           </div>
         </div>
         <div className={`${styles.flexRight} mb-5 md:mb-0`}>
