@@ -69,8 +69,7 @@ const about = {
       desired results.
     </>
   ),
-  design: `I may not fit the stereotype of a designer who spends hours
-  adjusting pixels on an Illustrator artboard, but I design. You'll
+  design: `You may not find me spending hours adjusting pixels on an illustrator artboard, but I design. You'll
   often find me immersed in stylesheets, fine-tuning font sizes and
   perfecting layouts. My focus is on crafting seamless user
   experiences that are both intuitive and visually striking.`,
