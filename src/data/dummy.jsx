@@ -178,10 +178,6 @@ const experience = [
     desc: "For a period of two weeks, I worked as a trainer at Palladium Innovations, a digital marketing agency based in Lagos, Nigeria, where I taught people the fundamentals of website development.",
     link: "https://www.facebook.com/palladiuminnovations/",
   },
-  {
-    company: "xaliyo",
-    role: "lead developer",
-  },
 ];
 
 export { navItems, socials, about, works, services, technologies, experience };
