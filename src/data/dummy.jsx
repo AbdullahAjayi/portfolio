@@ -159,14 +159,15 @@ const services = [
 ];
 
 const technologies = [
-  "Javascript",
-  "CSS3",
-  "HTML5",
   "React",
-  "NodeJS",
-  "MongoDB",
-  "Express",
+  "Next Js",
   "Tailwind",
+  "MongoDB",
+  "NodeJS",
+  "CSS3",
+  "Javascript",
+  "HTML5",
+  "Express",
   "Material UI",
 ];
 
