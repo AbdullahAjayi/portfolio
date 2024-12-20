@@ -1,15 +1,15 @@
-import { FiGithub, FiTwitter, FiLinkedin, FiInstagram } from "react-icons/fi";
+import { FiGithub, FiTwitter, FiLinkedin, FiInstagram } from "react-icons/fi"
 
-import image1 from "../asset/images/image1.png";
-import image2 from "../asset/images/image2.png";
-import image3 from "../asset/images/image3.png";
-import image4 from "../asset/images/image4.png";
-import image5 from "../asset/images/image5.png";
-import image6 from "../asset/images/image6.png";
+import image1 from "../asset/images/image1.png"
+import image2 from "../asset/images/image2.png"
+import image3 from "../asset/images/image3.png"
+import image4 from "../asset/images/image4.png"
+import image5 from "../asset/images/image5.png"
+import image6 from "../asset/images/image6.png"
 
-import svg1 from "../asset/svg/svg1.svg";
-import svg2 from "../asset/svg/svg2.svg";
-import svg3 from "../asset/svg/svg3.svg";
+import svg1 from "../asset/svg/svg1.svg"
+import svg2 from "../asset/svg/svg2.svg"
+import svg3 from "../asset/svg/svg3.svg"
 
 const navItems = [
   {
@@ -28,7 +28,7 @@ const navItems = [
     title: "Contact",
     navigation: "#contact",
   },
-];
+]
 
 // Social links
 
@@ -40,40 +40,36 @@ const socials = [
     icon: <FiLinkedin />,
     link: "https://www.linkedin.com/in/abdullah-ajayi-018a36239/",
   },
-];
+]
 
 // About Section
 
 const about = {
   aboutMe: (
     <>
-      Hello, my name is Abdullah. I'm passionate about problem-solving and
-      turning abstract ideas into reality. Whether it's tackling technical
-      challenges or finding creative solutions to design problems,{" "}
+      Hello, my name is Abdullah. I'm passionate about problem-solving and turning
+      abstract ideas into reality. Whether it's tackling technical challenges or finding
+      creative solutions to design problems,{" "}
       <span className="font-medium">
         I thrive on overcoming obstacles and delivering results.
       </span>{" "}
-      I have a keen eye for detail and a collaborative spirit, always eager to
-      take on new challenges and explore innovative ways to bring ideas to life.
+      I have a keen eye for detail and a collaborative spirit, always eager to take on new
+      challenges and explore innovative ways to bring ideas to life.
     </>
   ),
   engineering: (
     <>
-      With{" "}
-      <span className="font-medium">
-        over a year of experience in the industry
-      </span>
-      , my expertise lies in creating robust JavaScript applications, leveraging
-      the latest tools and technologies. Prioritizing performance and
-      scalability, I can work independently or collaboratively to achieve
-      desired results.
+      With <span className="font-medium">over a year of experience in the industry</span>,
+      my expertise lies in creating robust JavaScript applications, leveraging the latest
+      tools and technologies. Prioritizing performance and scalability, I can work
+      independently or collaboratively to achieve desired results.
     </>
   ),
   design: `You may not find me spending hours adjusting pixels on an illustrator artboard, but I design. You'll
   often find me immersed in stylesheets, fine-tuning font sizes and
   perfecting layouts. My focus is on crafting seamless user
   experiences that are both intuitive and visually striking.`,
-};
+}
 
 // Works section
 
@@ -136,7 +132,7 @@ const works = [
     githubLink: "https://github.com/AbdullahAjayi/Admin-Dashboard",
     liveSite: "https://admin-dashboard-abdullahajayi.vercel.app/",
   },
-];
+]
 
 // Services
 
@@ -156,7 +152,7 @@ const services = [
     text: "As a web developer, I understand the importance of technical optimization for search engine optimization (SEO). By implementing best practices such as optimizing meta tags, structured data markup, and semantic HTML, I ensure that I develop websites that search engines can easily crawl and index. ",
     svg: svg3,
   },
-];
+]
 
 const technologies = [
   "React",
@@ -169,7 +165,7 @@ const technologies = [
   "HTML5",
   "Express",
   "Material UI",
-];
+]
 
 const experience = [
   {
@@ -178,6 +174,6 @@ const experience = [
     desc: "For a period of two weeks, I worked as a trainer at Palladium Innovations, a digital marketing agency based in Lagos, Nigeria, where I taught people the fundamentals of website development.",
     link: "https://www.facebook.com/palladiuminnovations/",
   },
-];
+]
 
-export { navItems, socials, about, works, services, technologies, experience };
+export { navItems, socials, about, works, services, technologies, experience }
