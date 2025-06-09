@@ -59,16 +59,20 @@ const about = {
   ),
   engineering: (
     <>
-      With <span className="font-medium">over a year of experience in the industry</span>,
-      my expertise lies in creating robust JavaScript applications, leveraging the latest
-      tools and technologies. Prioritizing performance and scalability, I can work
+      With <span className="font-medium">over 3 years of experience in the industry</span>
+      , my expertise lies in creating robust JavaScript applications, leveraging the
+      latest tools and technologies. Prioritizing performance and scalability, I can work
       independently or collaboratively to achieve desired results.
     </>
   ),
-  design: `You may not find me spending hours adjusting pixels on an illustrator artboard, but I design. You'll
-  often find me immersed in stylesheets, fine-tuning font sizes and
-  perfecting layouts. My focus is on crafting seamless user
-  experiences that are both intuitive and visually striking.`,
+  design: (
+    <>
+      You may not find me spending hours adjusting pixels on an illustrator artboard, but
+      I design. You'll often find me immersed in stylesheets, fine-tuning font sizes and
+      perfecting layouts. My focus is on crafting seamless user experiences that are both
+      intuitive and visually striking.
+    </>
+  ),
 }
 
 // Works section
