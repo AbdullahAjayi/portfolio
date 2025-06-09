@@ -1,29 +1,27 @@
-import useMedia from "../hooks/mediaQuery";
-import { FiExternalLink, FiGithub, FiLink } from "react-icons/fi";
+import useMedia from "../hooks/mediaQuery"
+import { FiExternalLink, FiGithub, FiLink } from "react-icons/fi"
 
-import { works } from "../data/dummy";
-import { globalStyles } from "../styles/globalStyles";
+import { works } from "../data/dummy"
+import { globalStyles } from "../styles/globalStyles"
 
 const styles = {
   projectTags: "bg-blue-100 rounded-lg p-1 px-2 w-fit cursor-pointer",
   projectLinks: "cursor-pointer hover:bg-blue-100 p-3 rounded-lg",
   workList: "mt-4 grid gap-3 gap-y-10",
-  listItem:
-    "box animate-on-scroll flex flex-col border border-[#090e50] rounded-md p-2",
+  listItem: "box animate-on-scroll flex flex-col border border-[#090e50] rounded-md p-2",
   image: "h-40 border border-[#090e50] overflow-hidden rounded-md",
-};
+}
 
 const Works = () => {
-  const { matchesWidth } = useMedia();
+  const { matchesWidth } = useMedia()
 
   return (
     <section id="work" className={`${globalStyles.section}`}>
       <h2 className={`animate-on-scroll ${globalStyles.heading}`}>My Works.</h2>
       <p className={`animate-on-scroll ${globalStyles.sectionParagraph}`}>
-        While I have been engaged in a number of diverse and challenging
-        projects, many of them are currently not ready for public viewing due to
-        various reasons. However, here are some projects I built in the past
-        year that I'm excited to share:
+        While I have been engaged in a number of diverse and challenging projects, some of
+        them are currently not ready for public viewing due to various reasons. However,
+        here are some projects I built in the past year that I'm excited to share:
       </p>
       <ul
         className={`${styles.workList} ${
@@ -37,12 +35,8 @@ const Works = () => {
         {works.map((item, index) => (
           <li className={styles.listItem} key={index}>
             <div
-              className={`${
-                styles.image
-              } cursor-pointer mb-2 flex-none w-full ${
-                matchesWidth > 550 && matchesWidth < 1300
-                  ? "flex items-center"
-                  : ""
+              className={`${styles.image} cursor-pointer mb-2 flex-none w-full ${
+                matchesWidth > 550 && matchesWidth < 1300 ? "flex items-center" : ""
               }`}
               style={{ backgroundColor: "lightblue" }}
             >
@@ -65,22 +59,15 @@ const Works = () => {
             </ul>
             <div className="flex gap-4 mt-3">
               {item.githubLink ? (
-                <a
-                  href={item.githubLink}
-                  target="_blank"
-                  className={styles.projectLinks}
-                >
+                <a href={item.githubLink} target="_blank" className={styles.projectLinks}>
                   <i>{<FiGithub />}</i>
                 </a>
               ) : (
                 ""
               )}
               {item.liveSite ? (
-                <a
-                  href={item.liveSite}
-                  target="_blank"
-                  className={styles.projectLinks}
-                >
+                <a href={item.liveSite} target="_blank" className={styles.projectLinks}>
+                  {" "}
                   <i>{<FiLink />}</i>
                 </a>
               ) : (
@@ -91,7 +78,7 @@ const Works = () => {
         ))}
       </ul>
     </section>
-  );
-};
+  )
+}
 
-export default Works;
+export default Works
