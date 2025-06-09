@@ -38,7 +38,7 @@ const socials = [
   { icon: <FiInstagram />, link: "https://instagram.com/abdullahajayi" },
   {
     icon: <FiLinkedin />,
-    link: "https://www.linkedin.com/in/abdullah-ajayi-018a36239/",
+    link: "https://www.linkedin.com/in/abdullah-ajayi-%E1%B4%B0%E1%B4%B1%E2%B1%BD-018a36239/",
   },
 ]
 
