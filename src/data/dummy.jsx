@@ -59,9 +59,9 @@ const about = {
   ),
   engineering: (
     <>
-      With <span className="font-medium">over 3 years of experience in the industry</span>
-      , my expertise lies in creating robust JavaScript applications, leveraging the
-      latest tools and technologies. Prioritizing performance and scalability, I can work
+      With <span className="font-medium">over a year of experience in the industry</span>,
+      my expertise lies in creating robust JavaScript applications, leveraging the latest
+      tools and technologies. Prioritizing performance and scalability, I can work
       independently or collaboratively to achieve desired results.
     </>
   ),
