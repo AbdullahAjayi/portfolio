@@ -14,20 +14,28 @@ const Intro = () => {
         <div className={`${styles.flexLeft}`}>
           <div>
             <h1 className={`${globalStyles.subheading} font-semibold`}>
-              Hi there!, I am Abdullah, a
+              Hey there, I’m Abdullah —
             </h1>
-            <h1 className={`${globalStyles.heading}  mt-2`}>Frontend Developer.</h1>
+            <h1 className={`${globalStyles.heading} mt-2`}>
+              Web Developer & Digital Experience Builder
+            </h1>
           </div>
+
           <p className={`${globalStyles.sectionParagraph} text-lg md:text-xl`}>
-            I craft cutting-edge user interfaces with intuitively implemented UX.
+            I help creators and personal brands turn their story into a website that
+            builds trust and drives action.
           </p>
+
           <p className={`${globalStyles.sectionParagraph} text-lg md:text-xl`}>
-            I'm passionate about solving problems and bringing ideas to life.
+            <bold className="font-bold">My focus:</bold> clear messaging, credible design,
+            and conversion-ready experiences that make visitors believe in what you do.
           </p>
+
           <div className={`${globalStyles.btn} px-10 w-full md:w-fit p-3 mt-8 text-lg`}>
-            <a href="#contact">Let's work together</a>
+            <a href="#contact">Let’s bring your next powerful idea to life</a>
           </div>
         </div>
+
         <div className={`${styles.flexRight} mb-5 md:mb-0`}>
           <figure className="w-40 md:w-48 cursor-pointer">
             <img

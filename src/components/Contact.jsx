@@ -1,41 +1,40 @@
-import { useRef, useState } from "react";
-import emailjs from "@emailjs/browser";
-import { FiArrowRight } from "react-icons/fi";
-import { globalStyles } from "../styles/globalStyles";
+import { useRef, useState } from "react"
+import emailjs from "@emailjs/browser"
+import { FiArrowRight } from "react-icons/fi"
+import { globalStyles } from "../styles/globalStyles"
 
 const styles = {
-  input:
-    "flex-1 w-full h-10 p-5 outline-none bg-blue-100 rounded-md text-[#090e50]",
+  input: "flex-1 w-full h-10 p-5 outline-none bg-blue-100 rounded-md text-[#090e50]",
   btn: "px-12 w-fit p-3 mt-8 text-lg flex items-center justify-center gap-1 h-full",
-};
+}
 
 const Contact = () => {
-  const [loading, setLoading] = useState("shoot");
+  const [loading, setLoading] = useState("shoot")
   const [form, setForm] = useState({
     name: "",
     email: "",
     message: "",
-  });
+  })
   const handleChange = (e) => {
-    const { name, value } = e.target;
+    const { name, value } = e.target
 
     setForm({
       ...form,
       [name]: value,
-    });
-  };
+    })
+  }
 
   // template_8d3jq4u
   // service_budamta
   // 6-R2BF5L9TNq91ZNS
 
   const handleSubmit = (e) => {
-    e.preventDefault();
-    setLoading("Shooting");
+    e.preventDefault()
+    setLoading("Sending")
     emailjs
       .send(
-        "service_budamta",
-        "template_8d3jq4u",
+        "service_79xi14u",
+        "template_unem4q4",
         {
           from_name: form.name,
           to_name: "Abdullah",
@@ -47,37 +46,32 @@ const Contact = () => {
       )
       .then(
         () => {
-          alert("Thank you! I will get back to you as soon as possible");
+          alert("Thanks for your message! Will get back to you as soon as possible")
           setForm({
             name: "",
             email: "",
             message: "",
-          });
+          })
 
-          setLoading("Shoot");
+          setLoading("Shoot")
         },
         (error) => {
-          alert(
-            "Sorry, something went wrong. Pls email us at hafizajayi2308@gmail.com"
-          );
+          alert("Sorry, something went wrong. Pls email us at hafizajayi2308@gmail.com")
         }
-      );
-  };
+      )
+  }
   return (
     <section
       id="contact"
       className={`${globalStyles.section} flex flex-col items-center text-center`}
     >
-      <h2 className={`animate-on-scroll ${globalStyles.heading}`}>
-        Get In Touch.
-      </h2>
-      <p
-        className={`animate-on-scroll ${globalStyles.sectionParagraph} md:text-center`}
-      >
-        I am excited to collaborate with a team of innovative designers and
-        developers to bring ideas to life. If you believe we can work well
-        together or simply want to say hello, feel free to send me an email. I'm
-        looking forward to hearing from you!
+      <h2 className={`animate-on-scroll ${globalStyles.heading}`}>Get In Touch.</h2>
+      <p className={`animate-on-scroll ${globalStyles.sectionParagraph} md:text-center`}>
+        I’m always open to collaborating with forward-thinking creators and personal
+        brands who want a website that truly reflects their story and connects with their
+        audience. Whether you’re ready to build something meaningful or just want to chat
+        about your vision (or even geek out over code), send me an email — I’d be excited
+        to hear from you!
       </p>
       <form
         onSubmit={handleSubmit}
@@ -131,7 +125,7 @@ const Contact = () => {
         </div>
       </form>
     </section>
-  );
-};
+  )
+}
 
-export default Contact;
+export default Contact
